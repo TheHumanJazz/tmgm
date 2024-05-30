@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS output_1 (
 	rank_volume_symbol_prev_7d INT,
 	rank_count_prev_7d INT,
 	sum_volume_2020_08 DOUBLE PRECISION,
-	date_first_trade DATE,
+	date_first_trade TIMESTAMP,
 	row_number INT
 );
 
